@@ -12,3 +12,8 @@
 /aluno/#AlunoId/buscar                                          AlunoBuscarR                       GET
 /aluno/#AlunoId/apagar                                          AlunoApagarR                       DELETE
 /aluno/#AlunoId/alterar                                         AlunoAlterarR                      PUT
+
+/contacorrente    						  	                    ContaCorrenteInsereR			   POST
+/contacorrente/#ContaCorrenteId/buscar	                        ContaCorrenteBuscarR     		   GET
+/contacorrente/#ContaCorrenteId/apagar    	                    ContaCorrenteApagarR			   DELETE
+/contacorrente/#ContaCorrenteId/allbuscar 	                    AllValorContaCorrenteBuscarR       GET
