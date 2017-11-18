@@ -7,3 +7,8 @@
 /responsavel/#ResponsavelId/buscar                              ResponsavelBuscarR                 GET
 /responsavel/#ResponsavelId/apagar                              ResponsavelApagarR                 DELETE
 /responsavel/#ResponsavelId/alterar                             ResponsavelAlterarR                PUT
+
+/aluno                                                          AlunoInsereR                       POST
+/aluno/#AlunoId/buscar                                          AlunoBuscarR                       GET
+/aluno/#AlunoId/apagar                                          AlunoApagarR                       DELETE
+/aluno/#AlunoId/alterar                                         AlunoAlterarR                      PUT
