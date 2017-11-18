@@ -13,3 +13,6 @@ Aluno json
     limite      Double
     cpf         Text
     respid      ResponsavelId      
+
+Alergeno json 
+    nome        Text
