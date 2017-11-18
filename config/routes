@@ -3,4 +3,7 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR GET 
+/responsavel                                                    ResponsavelInsereR                 POST
+/responsavel/#ResponsavelId/buscar                              ResponsavelBuscarR                 GET
+/responsavel/#ResponsavelId/apagar                              ResponsavelApagarR                 DELETE
+/responsavel/#ResponsavelId/alterar                             ResponsavelAlterarR                PUT
