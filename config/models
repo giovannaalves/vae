@@ -16,3 +16,10 @@ Aluno json
 
 Alergeno json 
     nome        Text
+    
+ContaCorrente json
+    alunid      AlunoId
+    limite      Double
+    operacao    Date
+    tipo 	   	Int
+    observacao  Text
