@@ -17,3 +17,8 @@
 /contacorrente/#ContaCorrenteId/buscar	                        ContaCorrenteBuscarR     		   GET
 /contacorrente/#ContaCorrenteId/apagar    	                    ContaCorrenteApagarR			   DELETE
 /contacorrente/#ContaCorrenteId/allbuscar 	                    AllValorContaCorrenteBuscarR       GET
+
+/Usuario    						                        	UsuarioInsereR               	   POST
+/Usuario/#UsuarioId/buscar	   		                        	UsuarioBuscarR	   	               GET
+/Usuario/#UsuarioId/apagar    	     	                        UsuarioApagarR                     DELETE
+/Usuario/#Usuario/id/altera/#Text/nome                          AlteraNomeR    			           PATCH
