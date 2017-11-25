@@ -39,3 +39,7 @@ Produto json
 	nome                    Text
 	valor                   Double
 	idCategoria             CategoriaId
+
+AlergenoAluno json
+    alunid                  AlunoId
+    alergid                 AlergenoId
