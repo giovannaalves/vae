@@ -31,3 +31,11 @@ Usuario json
     login                   Text
     senha                   Text
     email                   Text
+    
+Categoria json
+    nome                    Text
+
+Produto json
+	nome                    Text
+	valor                   Double
+	idCategoria             CategoriaId
