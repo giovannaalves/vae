@@ -22,3 +22,8 @@
 /Usuario/#UsuarioId/buscar	   		                        	UsuarioBuscarR	   	               GET
 /Usuario/#UsuarioId/apagar    	     	                        UsuarioApagarR                     DELETE
 /Usuario/#Usuario/id/altera/#Text/nome                          AlteraNomeR    			           PATCH
+
+/produto                                                        ProdutoInsereR                     POST
+/produto/#ProdutoId/buscar                                      ProdutoBuscarR                     GET
+/produto/#ProdutoId/apagar                                      ProdutoApagarR                     DELETE
+/produto/#ProdutoId/alterar                                     ProdutoAlterarR                    PUT
