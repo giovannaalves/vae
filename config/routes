@@ -27,3 +27,6 @@
 /produto/#ProdutoId/buscar                                      ProdutoBuscarR                     GET
 /produto/#ProdutoId/apagar                                      ProdutoApagarR                     DELETE
 /produto/#ProdutoId/alterar                                     ProdutoAlterarR                    PUT
+
+/alergenoaluno/#AlergenoId/alergeno/#AlunoId/aluno              AlergenoAlunoR                     POST
+/alergenoaluno/#AlunoId/listar/alergeno                         ListarAlergenoR                    GET
