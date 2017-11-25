@@ -25,6 +25,7 @@ ContaCorrente json
     idAluno                 AlunoId
     datac                   Text
     tipo 	   	            Int
+    saldo                   Text
     
 Usuario json
     login                   Text
