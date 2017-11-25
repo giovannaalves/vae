@@ -1,25 +1,32 @@
 Responsavel json
-    nome        Text
-    cpf         Text
-    email       Text
-    celular     Text
-    telefone    Text
-    complemento Text
-    numeroend   Int
-    cep         Text
+    nome                    Text
+    cpfResponsavel          Text
+    celular                 Text
+    telefone                Text
+    complemento             Text
+    numeroCasa              Int
+    cep                     Text
+    idUsuario               UsuarioId
+    sexo                    Text
 
 Aluno json
-    nome        Text
-    limite      Double
-    cpf         Text
-    respid      ResponsavelId      
+    nome                    Text
+    limite                  Double
+    cpfResponsavel          Text
+    sexo                    Text
+    status                  Text
+    idUsuario               UsuarioId
+    dataNascimento          Text    
 
 Alergeno json 
-    nome        Text
+    nome                    Text
     
-ContaCorrente json
-    alunid      AlunoId
-    limite      Double
-    operacao    Date
-    tipo 	   	Int
-    observacao  Text
+ContaCorrente json 
+    idAluno                 AlunoId
+    datac                   Text
+    tipo 	   	            Int
+    
+Usuario json
+    login                   Text
+    senha                   Text
+    email                   Text

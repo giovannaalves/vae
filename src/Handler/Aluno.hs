@@ -38,8 +38,8 @@ putAlunoAlterarR aid = do
     runDB $ replace aid novoAluno
     sendStatusJSON noContent204 (object ["data" .= (fromSqlKey aid)])
 
-getSaldoR:: AlunoId -> Handler Value
-getSaldoR aid = do
-    _ <- runDB $ get404 aid
-    saldo <- runDB $ 
+--getSaldoR:: AlunoId -> Handler Value
+--getSaldoR aid = do
+  --  _ <- runDB $ get404 aid
+    --saldo <- runDB $ 
     
